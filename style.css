@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  text-align: center;
+  padding: 20px;
+}
+
+.menu {
+  margin: 10px;
+  padding: 15px;
+  border-radius: 12px;
+  background: white;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.submenu {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #ffe082;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+h2 {
+  color: #555;
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+h3 {
+  color: #2980b9;
+}
+
+footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+hr {
+  color: aqua;
+}
+
+p {
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+.quiz-option {
+      display: block;
+      width: 95%;
+      margin: 10px auto;
+      padding: 15px;
+      border-radius: 8px;
+      background: #e0e0e0;
+      cursor: pointer;
+      font-size: 16px;
+      border: 2px solid transparent;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+    .quiz-option:hover { background: #d1c4e9; }
+    .correct { background-color: #a5d6a7 !important; border-color: #388e3c !important; color: white; }
+    .incorrect { background-color: #ef9a9a !important; border-color: #c62828 !important; color: white; }
+    .disabled { pointer-events: none; }
